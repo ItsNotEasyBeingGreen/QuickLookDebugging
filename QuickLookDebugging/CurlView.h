@@ -1,18 +1,17 @@
 //
-//  CurlView.swift
+//  CurlView.h
 //  QuickLookDebugging
 //
 //  Created by Mark Cornelisse on 11/02/2019.
 //  Copyright © 2019 Mark Cornelisse. All rights reserved.
 //
 
-import UIKit
+@import UIKit;
 
-class CurlView: UIView {
+NS_ASSUME_NONNULL_BEGIN
 
-    // MARK: UIView
-    
-    // MARK: UIResponder
-    
-    // MARK: NSObject
-}
+@interface CurlView : UIView
+
+@end
+
+NS_ASSUME_NONNULL_END
