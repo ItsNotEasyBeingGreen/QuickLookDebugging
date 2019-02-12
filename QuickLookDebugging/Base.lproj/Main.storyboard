@@ -26,19 +26,30 @@
                                     <constraint firstAttribute="width" secondItem="PUb-nO-Uje" secondAttribute="height" multiplier="1:1" id="Llz-Nx-nKg"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxk-Du-F4j">
+                                <rect key="frame" x="166.5" y="72" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Fxk-Du-F4j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="7ee-zf-wYf"/>
+                            <constraint firstItem="Fxk-Du-F4j" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lh7-mJ-JMZ"/>
                             <constraint firstItem="PUb-nO-Uje" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="e7n-TY-KdW"/>
                             <constraint firstItem="PUb-nO-Uje" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="jOR-Jg-qwH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="curlView" destination="PUb-nO-Uje" id="t9f-fK-ZCJ"/>
+                        <outlet property="curlView" destination="PUb-nO-Uje" id="CF5-UN-wPW"/>
+                        <outlet property="name" destination="Fxk-Du-F4j" id="8iW-6c-ciQ"/>
+                        <outlet property="persoon" destination="yNm-P3-Wh1" id="NkG-nB-s5K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="yNm-P3-Wh1" customClass="Person" customModule="QuickLookDebugging" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
